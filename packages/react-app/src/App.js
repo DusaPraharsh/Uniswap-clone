@@ -4,6 +4,7 @@ import { useEthers } from "@usedapp/core";
 import styles from "./styles";
 import { usePools } from "./hooks";
 import { Exchange, Loader, WalletButton } from "./components";
+import zapLogo from "./assets/zapLogo.png";
 
 const App = () => {
   const { account } = useEthers();
@@ -13,11 +14,12 @@ const App = () => {
     <div className={styles.container}>
       <div className={styles.innerContainer}>
         <header className={styles.header}>
+          <img src={zapLogo} alt="logo" className="w-22 h-22 cursor-pointer" />
           <WalletButton />
         </header>
 
         <div className={styles.exchangeContainer}>
-          <h1 className={styles.headTitle}>Swap 2.0</h1>
+          <h1 className={styles.headTitle}>Zap Swap</h1>
           <p className={styles.subTitle}>Exchange tokens instantly</p>
 
           <div className={styles.exchangeBoxWrapper}>
