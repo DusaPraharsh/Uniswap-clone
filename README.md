@@ -1,3 +1,5 @@
+![Image](packages/react-app/src/assets/swapss.png)
+
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
 ## Project Structure
