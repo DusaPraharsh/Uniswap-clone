@@ -1,5 +1,5 @@
 import chevronDown from "./chevron-down.svg";
 import ethereumLogo from "./ethereumLogo.png";
-import logo from "./logo.png";
+import zapLogo from "./zapLogo.png";
 
-export { chevronDown, ethereumLogo, logo };
+export { chevronDown, ethereumLogo, zapLogo };
